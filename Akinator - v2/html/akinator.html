@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/akinator.css">
+</head>
+<body>
+    <a href="startScreen.html">Voltar ao menu principal</a>
+    <div class="layout">
+        <h2 id="resposta"></h2>
+        <button onclick='perguntaAleatoria()'>iniciar</button>
+        <h2 class="options" id="pergunta"></h2>
+        <button class="options" onclick='checkAnimal(returnValor(), true)'>SIM</button>
+        <button class="options" onclick='checkAnimal(returnValor(), false)'>NÃO</button>
+    </div>
+
+    <script src="../scripts/akinator.js"></script>
+</body>
+</html>
