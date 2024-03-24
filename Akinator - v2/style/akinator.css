@@ -22,10 +22,14 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-radius: 20px;
 }
 
 .options {
     width: 70%;
     height: 10%;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

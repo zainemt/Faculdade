@@ -12,16 +12,16 @@ const animais = [
 ]
 
 const perguntas = [
-    {QN: 0, pergunta: "4 patas?"},
-    {QN: 1, pergunta: "fazendas"},
-    {QN: 2, pergunta: "asas?"},
-    {QN: 3, pergunta: "nadador?"},
-    {QN: 4, pergunta: "perigoso"},
-    {QN: 5, pergunta: "doméstico?"},
-    {QN: 6, pergunta: "selvagem"},
-    {QN: 7, pergunta: "felino"},
-    {QN: 8, pergunta: "grande porte?"},
-    {QN: 9, pergunta: "pelos?"}
+    {QN: 0, pergunta: "Seu animal possui 4 patas?"},
+    {QN: 1, pergunta: "Seu animal está em fazendas?"},
+    {QN: 2, pergunta: "Seu animal possui asas?"},
+    {QN: 3, pergunta: "Seu animal é um nadador?"},
+    {QN: 4, pergunta: "Seu animal é perigoso?"},
+    {QN: 5, pergunta: "Seu animal é doméstico?"},
+    {QN: 6, pergunta: "Seu animal é selvagem?"},
+    {QN: 7, pergunta: "Seu animal é um felino?"},
+    {QN: 8, pergunta: "Seu animal é grande porte?"},
+    {QN: 9, pergunta: "Seu animal possui pelos?"}
 ]
 
 function gerarLista() {
